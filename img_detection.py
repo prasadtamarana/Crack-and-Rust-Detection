@@ -24,7 +24,7 @@ def detect_cracks(image_path, output_path="crack.jpg"):
 
 # Draw contours on the original image
     output_image = image.copy()
-    cv2.drawContours(output_image, contours, -1, (0, 0, 255), 2)  # Red contours
+    cv2.drawContours(output_image, contours, -1, (0, 0, 255), 2)
 
 # Save the output image
     cv2.imwrite(output_path, output_image)
