@@ -33,5 +33,5 @@ def detect_cracks(image_path, output_path="crack.jpg"):
 
 # Example usage
 if __name__ == "__main__":
-    input_image = r"C:\Users\prasa\Downloads\R\R\rust_3.jpg"  # Replace with your image path
-    detect_cracks(input_image)  # Output will be saved as crack.jpg
+    input_image = r"C:\Users\prasa\Downloads\R\R\rust_3.jpg"  
+    detect_cracks(input_image)  
