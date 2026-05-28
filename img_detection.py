@@ -57,6 +57,3 @@ def detect_cracks(image_path, output_path="crack_1.jpg"):
 if __name__ == "__main__":
     input_image = r"C:\Users\prasa\Downloads\R\R\rust_3.jpg"
     detect_cracks(input_image)
-if __name__ == "__main__":
-    input_image = r"C:\Users\prasa\Downloads\R\R\rust_3.jpg"
-    detect_cracks(input_image)
